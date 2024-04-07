@@ -8,11 +8,11 @@ type CardProps  = {
     title: string;
     text: string;
     description: string;
-    style: string;
+    className: string;
   };
-export default function Card({img,title,text,description,style}:CardProps ) {
+export default function Card({img,title,text,description,className}:CardProps ) {
   return (
-      <div  className={style}>
+      <div  className={className}>
           <div >
               <Image
                   src={img.src}
@@ -21,8 +21,8 @@ export default function Card({img,title,text,description,style}:CardProps ) {
                   height={img.height}
               />
           </div>
-          <div className="p-4 mt-10 max-w-[550px]">
-              <h1 className="text-blue-600 text-xl font-bold mb-2">{title}</h1>
+          <div className="p-4 mt-10 ">
+              <h1 className="text-blue-600 text-xl font-bold mb-2 max-w-[580px]">{title}</h1>
               <p className="text-xl mb-2">{text}</p>
               <p>{description}</p>
           </div>
