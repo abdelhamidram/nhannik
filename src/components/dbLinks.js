@@ -1,4 +1,3 @@
-
 const Links = [
     { text: "Welcome page", src: "/" },
     { text: "Social networks", src: "/Social" },

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import { CiSearch } from "react-icons/ci";
+import Link from "next/link";
 import Menub from './Menub';
 import MenuLinks from './MenuLinks';
 import Links from './dbLinks';
@@ -16,7 +16,7 @@ export default function NavBar() {
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center'>
             <div className='flex-shrink-0'>
-              <a href="/" className='text-black font-bold'>NK</a>
+              <Link href="/" className='text-black font-bold'>NK</Link>
             </div>
             <Search />
            </div>
