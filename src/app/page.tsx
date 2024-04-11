@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <NavBar/>
+      <BreadCrumb/>
       <HeroSec/> 
       <Content />
-      <BreadCrumb />
     </>
   );
 }

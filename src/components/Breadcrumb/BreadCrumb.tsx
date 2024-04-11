@@ -18,7 +18,7 @@ export default function BreadCrumb() {
  const paths:string = usePathname();
  const pathNames: string[] = paths.split('/').filter(path => path)
 return (
-        <Breadcrumb>
+        <Breadcrumb className="mx-8">
           <BreadcrumbList>
            <BreadcrumbItem>
              <BreadcrumbLink asChild>
