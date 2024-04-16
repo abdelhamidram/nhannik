@@ -1,7 +1,6 @@
-import BreadCrumb from "@/components/Breadcrumb/BreadCrumb";
 
 export default function offers() {
   return (
-    <BreadCrumb />
+    <h1>hello</h1>
   )
 }

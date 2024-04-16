@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Price() {
   return (
-    <div>Price</div>
+    <h1>hello</h1>
   )
 }
