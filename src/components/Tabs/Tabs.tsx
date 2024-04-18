@@ -1,10 +1,11 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import React, { ReactNode } from "react";
 
 type TabsProps = {
     defaultV: string;
     titles: string[]; 
     values: string[]; 
-    descriptions: string[];
+    descriptions: ReactNode[];
 }&{className?:string};
 
 export default function TabsC(props: TabsProps) {
@@ -23,7 +24,7 @@ export default function TabsC(props: TabsProps) {
               {desc}
           </TabsContent>
         ))}
-      </Tabs>
+      </Tabs> 
     </>
   );
 }
